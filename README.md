@@ -6,7 +6,8 @@ The goal of the project is to create models for classifying text contents as off
 The goal of the project can also be adapted to other tasks or text phenomena, such as sarcasm, moral values, political opinions and so on. In general, the idea is to find a lexical explanation with respect to the decision of a classifier.
 
 Dataset
-Any dataset suitable for hate speech detection (see for example (https://hatespeechdata.com/) and (https://paperswithcode.com/dataset/hate-speech)).
+
+Any dataset suitable for hate speech detection [see for example (https://hatespeechdata.com/) and (https://paperswithcode.com/dataset/hate-speech)].
 
 
 
