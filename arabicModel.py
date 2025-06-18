@@ -4,30 +4,26 @@ import torch
 
 from torch import nn
 from sklearn.model_selection import train_test_split
+import transformers
 from transformers import (
     AutoTokenizer,
     AutoModelForSequenceClassification,
     Trainer,
-    # TrainingArguments,
     AutoConfig,
     BertPreTrainedModel,
     BertModel,
 )
-import transformers
+
+from datasets import Dataset, DatasetDict
+import evaluate
 from transformers.modeling_outputs import SequenceClassifierOutput
 from transformers import TrainingArguments
 print(TrainingArguments.__init__.__code__.co_varnames)
-
-
-import transformers
 print(hasattr(transformers, 'SequenceClassifierOutput'))  # Should return True
 print(TrainingArguments)
 print(TrainingArguments.__module__)
 
-from datasets import Dataset, DatasetDict
-import evaluate
 
-print(transformers.__version__)
 
 # Load dataset
 df = pd.read_csv("convabuse.csv", sep=";")
