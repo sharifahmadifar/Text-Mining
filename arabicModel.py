@@ -14,7 +14,6 @@ from transformers import (
     BertModel,
 )
 import transformers
-print(transformers.__file__)
 from transformers.modeling_outputs import SequenceClassifierOutput
 from transformers import TrainingArguments
 print(TrainingArguments.__init__.__code__.co_varnames)
@@ -27,8 +26,7 @@ print(TrainingArguments.__module__)
 
 from datasets import Dataset, DatasetDict
 import evaluate
-# import transformers
-print("baje")
+
 print(transformers.__version__)
 
 # Load dataset
