@@ -18,11 +18,6 @@ from datasets import Dataset, DatasetDict
 import evaluate
 from transformers.modeling_outputs import SequenceClassifierOutput
 from transformers import TrainingArguments
-print(TrainingArguments.__init__.__code__.co_varnames)
-print(hasattr(transformers, 'SequenceClassifierOutput'))  # Should return True
-print(TrainingArguments)
-print(TrainingArguments.__module__)
-
 
 
 # Load dataset
