@@ -22,6 +22,7 @@ test_dataset = Dataset.from_dict({"text": test_texts.tolist(), "label": test_lab
 dataset = DatasetDict({"train": train_dataset, "test": test_dataset})
 
 # Load tokenizer and model
+
 #model_name = "aubmindlab/bert-base-arabertv02"
 model_name = "UBC-NLP/MARBERTv2"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
